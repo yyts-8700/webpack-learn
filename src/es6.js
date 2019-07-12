@@ -1,6 +1,3 @@
-
-export default{
-    ccc: 45652323
+module.exports = {
+    5
 }
-export let a = 1;
-export let b = 2;
