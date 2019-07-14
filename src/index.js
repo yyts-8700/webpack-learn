@@ -1,1 +1,1 @@
-console.log("hhekik")
+console.log("大家好");

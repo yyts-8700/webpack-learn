@@ -1,36 +1,26 @@
 {
-  "name": "webpack",
+  "name": "webpack-learn",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyts-8700/webpack-learn.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@babel/core": "^7.5.4",
-    "@babel/preset-env": "^7.5.4",
-    "@babel/preset-react": "^7.0.0",
-    "autoprefixer": "^9.6.0",
-    "babel-loader": "^8.0.6",
-    "css-loader": "^3.0.0",
-    "file-loader": "^4.0.0",
-    "html-webpack-plugin": "^3.2.0",
-    "less": "^3.9.0",
-    "less-loader": "^5.0.0",
-    "mini-css-extract-plugin": "^0.7.0",
-    "postcss-load-config": "^2.1.0",
-    "postcss-loader": "^3.0.0",
-    "postcss-selector-parser": "^6.0.2",
-    "style-loader": "^0.23.1",
-    "webpack": "^4.32.2",
-    "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.5.1"
+  "bugs": {
+    "url": "https://github.com/yyts-8700/webpack-learn/issues"
   },
-  "dependencies": {
-    "jquery": "^3.4.1"
+  "homepage": "https://github.com/yyts-8700/webpack-learn#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
   }
 }
