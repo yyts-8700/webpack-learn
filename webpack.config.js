@@ -11,6 +11,23 @@ module.exports = {
         open: true,
         port: 5000
     },
+    module:{
+        rules:[
+            {
+                test:/\.js$/,
+                use:{
+                    loader: "babel-loader",
+                    options:{
+                        presets:["@babel/preset-env","@babel/preset-react"]
+                    }
+                }
+            },
+            {
+                test: /\.css$/,
+                use: ["style-loader","css-loader"]
+            }
+        ]
+    },
     plugins:[
         new Hwp({
             template:"./src/index.html",
